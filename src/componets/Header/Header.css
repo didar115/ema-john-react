@@ -1,0 +1,34 @@
+.header-container {
+   text-align: center;
+}
+.header-container .logo{
+    height: 100px;
+}
+.header-container nav{
+    background-color: black;
+    line-height:40px ;
+    text-align: left;
+    padding-left: 30px;
+}
+.header-container nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+
+}
+.header-container nav a:hover{
+    background-color: lightgrey;
+    color: black;
+    border-radius: 5px;
+}
+
+.search-div{
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+}
+.search-box{
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+}
