@@ -9,7 +9,7 @@ function Shop() {
 
     useEffect(() => {
         
-        fetch('./fakeData/products.JSON')
+        fetch('./products.JSON')
             .then(res => res.json())
             .then(data => setProducts(data))
         
@@ -21,7 +21,7 @@ function Shop() {
                 {
                     products.map(productData =>
                         
-                        <Product Product={ productData}></Product>
+                        <Product key={ productData.key} Product={ productData}></Product>
                         )
                 }
             </div>

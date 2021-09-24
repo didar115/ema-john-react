@@ -1,19 +1,26 @@
-import React from 'react';
-import './Product.css';
+import React from "react";
+import "./Product.css";
 
 function Product(props) {
-    // console.log(props.product);
-    const {name,price,stock,img } = props.Product;
+	// console.log(props.product);
+	const { name, price, stock, img, seller } = props.Product;
 
+	return (
+		<div className="product-card">
+			<div>
+				<img src={img} alt="" />
+			</div>
 
-    return (
-        <div>
-
-            <img src={img} alt="" />
-            <h4>{ name}</h4>
-            
-        </div>
-    )
+			<div>
+				<h4 className='product-name'>{name}</h4>
+                <p><small>by ; {seller}</small></p>
+                <p> Price: {price}</p>
+                <p><small>Only {stock} left in stock - order soon</small></p>
+                
+                <button className='regular-btn'>add to cart</button>
+			</div>
+		</div>
+	);
 }
 
 export default Product;
