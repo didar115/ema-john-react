@@ -7,3 +7,15 @@
     margin-right: 5px;
     margin-left: 50px;
 }
+.cart-container{
+    position: fixed ;
+    left: 78%;
+    top: 250px;
+    width: 15%;
+    background-color: goldenrod;
+    border: 2px solid rgb(71, 71, 71);
+    padding: 10px;
+    border-radius: 5px;
+
+
+}

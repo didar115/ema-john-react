@@ -29,6 +29,7 @@
 }
 .search-box{
     width: 50%;
+    height: 25px;
     padding: 5px;
     border-radius: 5px;
 }
