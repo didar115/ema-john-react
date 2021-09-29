@@ -49,7 +49,15 @@ function Shop() {
     // add to cart handle funtion 
     const handleAddToCart = product => {
         // console.log(product.name);
-        const newCart = [...cart, product];
+        const newCart = [...cart];
+        const existing = cart.find(c => c.key === product.key);
+        if (existing) {
+            product.quantity = product.quantity + 1;
+        }
+        else {
+            product.quantity = 1;
+            newCart.push(product);
+        }
         setCart(newCart);
         //save to local storage
         addToDb(product.key);
