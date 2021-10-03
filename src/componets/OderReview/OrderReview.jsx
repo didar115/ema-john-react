@@ -13,22 +13,18 @@ function OrderReview() {
     }
     return (
         <div className="shop-container">
-            <div className='product-container'>
-
-                {
-                    cart.map(product => <ReviewItem
+                <div className='product-container'>
+                    {
+                        cart.map(product => <ReviewItem
                         key={product.key}
                         handleRemove={handleRemove}
                         product={product}></ReviewItem>)
-                }
+                    }
+                </div>
 
-            </div>
-
-            <div className='cart-container' >
-                <Cart cart={cart}></Cart>
-
-            </div>
-            
+                <div className='cart-container' >
+                    <Cart cart={cart}></Cart>
+                </div>
             
         </div>
     )

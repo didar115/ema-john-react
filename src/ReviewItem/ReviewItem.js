@@ -5,17 +5,19 @@ const ReviewItem = (props) => {
     const { handleRemove } = props;
     return (
         <div className="product-card">
+            {/* review item image part */}
             <div>
                 <img src={img} alt="" />
             </div>
+
+            {/* review item details numeric part */}
             <div>
                 <h4 className="product-name">{name}</h4>
                 <p>price: {price}</p>
                 <p>Quantity:{quantity} </p>
-                <button onClick={() => handleRemove(key)}
-                    className="regular-btn">Remove</button>
+                <button onClick={() => handleRemove(key)} className="regular-btn">Remove</button>
             </div>
-			</div>
+		</div>
 		);
 }
 
