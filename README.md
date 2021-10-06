@@ -1,6 +1,6 @@
 # Ema-john 
 
-![E-School](https://github.com/didar115/E-School/blob/main/e-school-commerce.png)
+![Ema-john](https://github.com/didar115/ema-john-react/blob/main/ema-john.png)
 
 ema john  is a dynamic e-commerce platform.
 
