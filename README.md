@@ -20,11 +20,10 @@ ema john  is a dynamic e-commerce platform.
 - React
 - React Router
 - React Bootstrap
-- ExpressJS
 - Bootstrap5
 - Stripe
 
-### `LIVE SITE:` [E-School](https://e-school2021.netlify.app)
+### `LIVE SITE:` [Ema-john](https://e-school2021.netlify.app)
 
 
 
